@@ -27,7 +27,6 @@ func LoadConfig(configPath string) (*Config, error) {
 	}
 
 	var config Config
-	
 	if err := viper.Unmarshal(&config); err != nil {
 		return nil, fmt.Errorf("failed to unmarshall config: %v", err)
 	}
