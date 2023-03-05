@@ -1,0 +1,5 @@
+oss:
+  endpoint: "https://aliyun-cn.oss.com"
+  accessKeyID: "ayunwSky"
+  accessKeySecret: "ayunwSkySecret"
+  bucketName: "ayunwsky"
